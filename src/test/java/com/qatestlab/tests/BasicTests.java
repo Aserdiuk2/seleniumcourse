@@ -13,19 +13,27 @@ public class BasicTests {
     public static void main (String[] args) throws InterruptedException {
         WebDriver driver = initChromeDriver();
 
-        driver.get("http://clients.qatestlab.com");
+        driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0");
         Thread.sleep(3000);
-        WebElement login = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div/div/div/div[2]/form/div/div[1]/div[1]/input"));
-        login.sendKeys("0935769775");
+        WebElement login = driver.findElement(By.id("email"));
+        login.sendKeys("webinar.test@gmail.com");
 
-        WebElement password = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div/div/div/div[2]/form/div/div[2]/div[1]/input"));
-        password.sendKeys("qcCHDxtm");
+        WebElement password = driver.findElement(By.id("passwd"));
+        password.sendKeys("Xcg7299bnSmMuRLp9ITw");
         Thread.sleep(3000);
 
-        WebElement submitButton = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div/div/div/div[2]/form/div/div[3]/button"));
+        WebElement submitButton = driver.findElement(By.name("submitLogin"));
         submitButton.click();
         Thread.sleep(3000);
-        
+
+        WebElement avatarMenu = driver.findElement(By.className("employee_avatar_small"));
+        avatarMenu.click();
+        Thread.sleep(3000);
+
+        WebElement logoutButton = driver.findElement(By.xpath("//*[@id=\"header_logout\"]"));
+        logoutButton.click();
+        Thread.sleep(3000);
+
         driver.quit();
 
 
