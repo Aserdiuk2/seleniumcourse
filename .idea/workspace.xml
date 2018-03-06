@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d0e254b-8e1b-4c5a-9814-27e67745ef1b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="BasicTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="32" column="89" lean-forward="false" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+            <state relative-caret-position="2478">
+              <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +69,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -172,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BasicTests (1)">
+  <component name="RunManager" selected="TestNG.BasicTests.mainTabTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -181,25 +179,6 @@
       <module />
     </configuration>
     <configuration name="BasicTests (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.qatestlab.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.qatestlab.tests.BasicTests" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="seleniumcourse" />
-      <envs />
-    </configuration>
-    <configuration name="BasicTests (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.qatestlab.tests.*" />
@@ -337,6 +316,38 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <configuration name="BasicTests.mainTabTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qatestlab.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seleniumcourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.qatestlab.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qatestlab.tests.BasicTests" />
+      <option name="METHOD_NAME" value="mainTabTests" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -372,19 +383,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.SeleniumCourseTests" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BasicTests (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BasicTests (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BasicTests (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BasicTests (5)" />
-      <item index="5" class="java.lang.String" itemvalue="Application.BasicTests (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BasicTests (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BasicTests (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BasicTests (5)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BasicTests (1)" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.BasicTests.mainTabTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BasicTests (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BasicTests (5)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BasicTests (4)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BasicTests (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BasicTests (2)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.BasicTests.mainTabTests" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BasicTests (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BasicTests (5)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BasicTests (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BasicTests (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -405,27 +416,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicTests_testGoogleSearch - 2018.03.05 at 21h 52m 06s.xml">
-      <configuration name="BasicTests.testGoogleSearch" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 08h 59m 41s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_testGoogleSearch - 2018.03.05 at 21h 53m 48s.xml">
-      <configuration name="BasicTests.testGoogleSearch" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 10m 24s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_testGoogleSearch - 2018.03.05 at 21h 56m 02s.xml">
-      <configuration name="BasicTests.testGoogleSearch" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 13m 40s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_testGoogleSearch - 2018.03.05 at 21h 57m 57s.xml">
-      <configuration name="BasicTests.testGoogleSearch" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 17m 22s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_testGoogleSearch - 2018.03.05 at 22h 07m 47s.xml">
-      <configuration name="BasicTests.testGoogleSearch" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 21m 12s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_testGoogleSearch - 2018.03.05 at 22h 13m 27s.xml">
-      <configuration name="BasicTests.testGoogleSearch" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 24m 11s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 32m 44s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 40m 00s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 42m 42s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicTests_mainTabTests - 2018.03.06 at 09h 44m 56s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -494,8 +517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="32" column="89" lean-forward="false" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
+        <state relative-caret-position="2478">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
