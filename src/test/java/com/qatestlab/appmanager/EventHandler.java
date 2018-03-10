@@ -1,4 +1,4 @@
-package com.qatestlab.tests;
+package com.qatestlab.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
