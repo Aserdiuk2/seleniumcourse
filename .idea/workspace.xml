@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d0e254b-8e1b-4c5a-9814-27e67745ef1b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/EventHandler.java" afterPath="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/EventHandler.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/PageHelper.java" afterPath="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/PageHelper.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java" />
@@ -30,8 +32,8 @@
       <file leaf-file-name="BasicTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="312">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +44,8 @@
       <file leaf-file-name="PageHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/PageHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="139" column="23" lean-forward="false" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +56,8 @@
       <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1407">
-              <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+            <state relative-caret-position="651">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +89,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/EventHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/CategoryHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/CategoryHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/PageHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/EventHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/PageHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java" />
       </list>
     </option>
@@ -133,12 +135,20 @@
             <path>
               <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
@@ -193,10 +203,11 @@
     <property name="SearchEverywhereHistoryKey" value="hot keys&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\IdeaProjects\webinar_http_api-master\seleniumcourse\drivers" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\IdeaProjects\webinar_http_api-master\seleniumcourse\src\main\resources" />
       <recent name="C:\Users\Lenovo\IdeaProjects\webinar_http_api-master\seleniumcourse\drivers" />
     </key>
   </component>
@@ -473,10 +484,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.BasicTests.main" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.BasicTests" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BasicTests (1)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.BasicTests.succesfullSignIn" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.BasicTests.mainTabTests" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.BasicTests.mainTabTests" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.BasicTests" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BasicTests (1)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.BasicTests.succesfullSignIn" />
       </list>
     </recent_temporary>
   </component>
@@ -497,35 +508,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicTests - 2018.03.10 at 23h 35m 41s.xml">
-      <configuration name="BasicTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.10 at 16h 13m 42s.xml">
+    <history-entry file="BasicTests_main - 2018.03.11 at 12h 20m 20s.xml">
       <configuration name="BasicTests.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.10 at 16h 13m 48s.xml">
+    <history-entry file="BasicTests_main - 2018.03.11 at 12h 21m 36s.xml">
       <configuration name="BasicTests.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.10 at 16h 36m 02s.xml">
+    <history-entry file="BasicTests_main - 2018.03.11 at 13h 01m 07s.xml">
       <configuration name="BasicTests.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.10 at 23h 44m 32s.xml">
+    <history-entry file="BasicTests_main - 2018.03.11 at 13h 01m 59s.xml">
       <configuration name="BasicTests.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.10 at 23h 47m 18s.xml">
-      <configuration name="BasicTests.main" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.11 at 12h 53m 56s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.11 at 00h 10m 38s.xml">
-      <configuration name="BasicTests.main" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.11 at 12h 55m 29s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.11 at 00h 11m 38s.xml">
-      <configuration name="BasicTests.main" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.11 at 12h 57m 05s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.11 at 00h 14m 09s.xml">
-      <configuration name="BasicTests.main" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.11 at 12h 58m 33s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTests_main - 2018.03.11 at 11h 19m 05s.xml">
-      <configuration name="BasicTests.main" configurationId="TestNG" />
+    <history-entry file="BasicTests_mainTabTests - 2018.03.11 at 12h 58m 55s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicTests_mainTabTests - 2018.03.11 at 12h 59m 28s.xml">
+      <configuration name="BasicTests.mainTabTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -616,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        <state relative-caret-position="651">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -626,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/PageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        <state relative-caret-position="293">
+          <caret line="139" column="23" lean-forward="false" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="312">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

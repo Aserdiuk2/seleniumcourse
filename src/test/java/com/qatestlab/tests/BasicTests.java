@@ -5,17 +5,23 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.File;
+import java.util.concurrent.TimeUnit;
+
 
 public class BasicTests {
 
-    private final PageHelper categoryHelper = new PageHelper();
+    private final PageHelper pageHelper = new PageHelper();
+    private static WebDriver driver;
 
     @Test
     public static void main () {
+        //EventFiringWebDriver driver = getConfiguredDriver();
         WebDriver driver = initChromeDriver();
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
@@ -92,9 +98,21 @@ public class BasicTests {
 
 
     public static WebDriver initChromeDriver() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", new File(BasicTests.class.getResource("/chromedriver.exe").getFile()).getPath());
         return new ChromeDriver();
     }
+
+    /*public static EventFiringWebDriver getConfiguredDriver() {
+        WebDriver driver = getDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        EventFiringWebDriver webDriver = new EventFiringWebDriver(driver);
+        return webDriver;
+    }
+
+    public static WebDriver getDriver() {
+        return driver;
+    } */
 
 
 }

@@ -29,6 +29,7 @@ public class EventHandler implements WebDriverEventListener {
     }
 
     public void afterNavigateTo(String s, WebDriver webDriver) {
+        System.out.println("Open url: " + s);
 
     }
 
@@ -57,15 +58,15 @@ public class EventHandler implements WebDriverEventListener {
     }
 
     public void beforeFindBy(By by, WebElement webElement, WebDriver webDriver) {
-
+        System.out.println("Search for element: " + by.toString());
     }
 
     public void afterFindBy(By by, WebElement webElement, WebDriver webDriver) {
-
+        System.out.println("Element is successfully found");
     }
 
     public void beforeClickOn(WebElement webElement, WebDriver webDriver) {
-        System.out.println("Element is successfully found");
+        System.out.println("Click on element: " + webElement.getTagName() + " " + webElement.getAttribute("name"));
     }
 
     public void afterClickOn(WebElement webElement, WebDriver webDriver) {
@@ -74,10 +75,11 @@ public class EventHandler implements WebDriverEventListener {
     }
 
     public void beforeChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
-
+        System.out.println("Fill input " + webElement.getAttribute("id") + "with value " + charSequences.toString());
     }
 
     public void afterChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
+        System.out.println("Value is successfully changed");
 
     }
 
