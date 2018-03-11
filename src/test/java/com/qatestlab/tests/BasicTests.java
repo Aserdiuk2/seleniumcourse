@@ -1,12 +1,10 @@
 package com.qatestlab.tests;
 
-import com.qatestlab.appmanager.EventHandler;
 import com.qatestlab.appmanager.PageHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -34,8 +32,6 @@ public class BasicTests {
 
     }
 
-
-
     @Test
     public void succesfullSignIn() {
         WebDriver driver = initChromeDriver();
@@ -60,49 +56,36 @@ public class BasicTests {
         PageHelper.setPassword(driver);
         PageHelper.pressLoginButton(driver, wait);
 
-        WebElement ordersSubtab = driver.findElement(By.id("subtab-AdminParentOrders"));
-        ordersSubtab.click();
-        String title = driver.getTitle();
-        System.out.println(title);
+        PageHelper.clickOrdersTab(driver);
+        PageHelper.displayTabName(driver);
         driver.navigate().refresh();
-        Assert.assertEquals("Заказы • prestashop-automation", driver.getTitle());
+        PageHelper.verifyOrdersTabIsOpen(driver);
 
-        WebElement catalogSubtab = driver.findElement(By.id("subtab-AdminCatalog"));
-        catalogSubtab.click();
-        String title2 = driver.getTitle();
-        System.out.println(title2);
+        PageHelper.clickCatalogTab(driver);
+        PageHelper.displayTabName(driver);
         driver.navigate().refresh();
-        Assert.assertEquals("товары • prestashop-automation", driver.getTitle());
+        PageHelper.verifyCatalogTabIsOpen(driver);
 
-        WebElement logoButton = driver.findElement(By.xpath("/html/body/header/nav/a"));
-        logoButton.click();
-        WebElement customersSubtab = driver.findElement(By.id("subtab-AdminParentCustomer"));
-        customersSubtab.click();
-        String title3 = driver.getTitle();
-        System.out.println(title3);
+        PageHelper.clickLogoButton(driver);
+        PageHelper.clickCustomersTab(driver);
+        PageHelper.displayTabName(driver);
         driver.navigate().refresh();
-        Assert.assertEquals("Управление клиентами • prestashop-automation", driver.getTitle());
+        PageHelper.verifyCustomersTabIsOpen(driver);
 
-        WebElement customerThreadsSubtab = driver.findElement(By.id("subtab-AdminParentCustomerThreads"));
-        customerThreadsSubtab.click();
-        String title4 = driver.getTitle();
-        System.out.println(title4);
+        PageHelper.clickCustomerThreadsSubtab(driver);
+        PageHelper.displayTabName(driver);
         driver.navigate().refresh();
-        Assert.assertEquals("Customer Service • prestashop-automation", driver.getTitle());
+        PageHelper.verifyCustomerThreadsSubtabIsOpen(driver);
 
-        WebElement statsSubtab = driver.findElement(By.id("subtab-AdminStats"));
-        statsSubtab.click();
-        String title5 = driver.getTitle();
-        System.out.println(title5);
+        PageHelper.clickStatsTab(driver);
+        PageHelper.displayTabName(driver);
         driver.navigate().refresh();
-        Assert.assertEquals("Статистика • prestashop-automation", driver.getTitle());
+        PageHelper.verifyStatsTabIsOpen(driver);
 
-        WebElement adminDashboardButton = driver.findElement(By.xpath("//*[@id=\"tab-AdminDashboard\"]/a/span"));
-        adminDashboardButton.click();
-        String title6 = driver.getTitle();
-        System.out.println(title6);
+        PageHelper.clickDashboardButton(driver);
+        PageHelper.displayTabName(driver);
         driver.navigate().refresh();
-        Assert.assertEquals("Dashboard • prestashop-automation", driver.getTitle());
+        PageHelper.verifyDashboardIsOpen(driver);
 
         driver.quit();
     }

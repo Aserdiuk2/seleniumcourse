@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
@@ -74,5 +75,69 @@ public class PageHelper {
     public static void setPassword(WebDriver driver) {
         WebElement password = driver.findElement(By.id("passwd"));
         password.sendKeys("Xcg7299bnSmMuRLp9ITw");
+    }
+
+    public static void verifyDashboardIsOpen(WebDriver driver) {
+        Assert.assertEquals("Dashboard • prestashop-automation", driver.getTitle());
+    }
+
+    public static void clickDashboardButton(WebDriver driver) {
+        WebElement adminDashboardButton = driver.findElement(By.xpath("//*[@id=\"tab-AdminDashboard\"]/a/span"));
+        adminDashboardButton.click();
+    }
+
+    public static void verifyStatsTabIsOpen(WebDriver driver) {
+        Assert.assertEquals("Статистика • prestashop-automation", driver.getTitle());
+    }
+
+    public static void clickStatsTab(WebDriver driver) {
+        WebElement statsSubtab = driver.findElement(By.id("subtab-AdminStats"));
+        statsSubtab.click();
+    }
+
+    public static void verifyCustomerThreadsSubtabIsOpen(WebDriver driver) {
+        Assert.assertEquals("Customer Service • prestashop-automation", driver.getTitle());
+    }
+
+    public static void clickCustomerThreadsSubtab(WebDriver driver) {
+        WebElement customerThreadsSubtab = driver.findElement(By.id("subtab-AdminParentCustomerThreads"));
+        customerThreadsSubtab.click();
+    }
+
+    public static void verifyCustomersTabIsOpen(WebDriver driver) {
+        Assert.assertEquals("Управление клиентами • prestashop-automation", driver.getTitle());
+    }
+
+    public static void clickCustomersTab(WebDriver driver) {
+        WebElement customersSubtab = driver.findElement(By.id("subtab-AdminParentCustomer"));
+        customersSubtab.click();
+    }
+
+    public static void clickLogoButton(WebDriver driver) {
+        WebElement logoButton = driver.findElement(By.xpath("/html/body/header/nav/a"));
+        logoButton.click();
+    }
+
+    public static void verifyCatalogTabIsOpen(WebDriver driver) {
+        Assert.assertEquals("товары • prestashop-automation", driver.getTitle());
+    }
+
+    public static void clickCatalogTab(WebDriver driver) {
+        WebElement catalogSubtab = driver.findElement(By.id("subtab-AdminCatalog"));
+        catalogSubtab.click();
+    }
+
+    public static void verifyOrdersTabIsOpen(WebDriver driver) {
+        Assert.assertEquals("Заказы • prestashop-automation", driver.getTitle());
+    }
+
+    public static void displayTabName(WebDriver driver) {
+        String title = driver.getTitle();
+        System.out.println(title);
+    }
+
+    public static void clickOrdersTab(WebDriver driver) {
+        WebElement ordersSubtab = driver.findElement(By.id("subtab-AdminParentOrders"));
+        ordersSubtab.click();
     }
 }

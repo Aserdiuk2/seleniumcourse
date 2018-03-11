@@ -65,7 +65,7 @@ public class EventHandler implements WebDriverEventListener {
     }
 
     public void beforeClickOn(WebElement webElement, WebDriver webDriver) {
-
+        System.out.println("Element is successfully found");
     }
 
     public void afterClickOn(WebElement webElement, WebDriver webDriver) {
