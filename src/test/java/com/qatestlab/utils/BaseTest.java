@@ -33,7 +33,6 @@ public abstract class BaseTest {
                         new File(SeleniumTests.class.getResource("/chromedriver.exe").getFile()).getPath());
                 driver = new ChromeDriver();
 
-        //driver.manage().window().maximize();
         return driver;
     }
 

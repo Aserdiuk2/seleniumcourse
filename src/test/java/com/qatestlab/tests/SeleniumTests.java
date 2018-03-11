@@ -2,8 +2,11 @@ package com.qatestlab.tests;
 
 import com.qatestlab.pages.PageHelper;
 import com.qatestlab.utils.BaseTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -25,6 +28,9 @@ public class SeleniumTests extends BaseTest {
         PageHelper.clickAddCategory(driver, wait);
         PageHelper.createCategory(driver, wait);
         PageHelper.filterCategoryByName(driver, wait);
+        WebElement getCategoryName = driver.findElement(By.className("odd"));
+        String CategoryName = getCategoryName.getText();
+        System.out.println(CategoryName);
         driver.quit();
 
     }
