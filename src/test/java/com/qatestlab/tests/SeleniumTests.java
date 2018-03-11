@@ -12,8 +12,9 @@ import org.testng.annotations.Test;
 
 public class SeleniumTests extends BaseTest {
 
+
     @Test
-    public static void main () {
+    public void AddCategoryTest () {
         EventFiringWebDriver driver = getConfiguredDriver();
         WebDriverWait wait = new WebDriverWait(driver, 10);
 

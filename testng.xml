@@ -1,0 +1,9 @@
+
+<suite name = "TestSuite" verbose="1" >
+
+    <test name = "Test">
+        <classes>
+            <class name="com.qatestlab.tests.SeleniumTests"/>
+        </classes>
+    </test>
+</suite>
