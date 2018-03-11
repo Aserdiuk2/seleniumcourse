@@ -84,7 +84,7 @@ public class PageHelper {
     }
 
     public static void verifyDashboardIsOpen(WebDriver driver) {
-        Assert.assertEquals("Dashboard • prestashop-automation", driver.getTitle());
+        Assert.assertEquals("Dashboard • prestashop-automation", driver.getTitle(), "Названия не соответствуют");
     }
 
     public static void clickDashboardButton(WebDriver driver) {
@@ -93,7 +93,7 @@ public class PageHelper {
     }
 
     public static void verifyStatsTabIsOpen(WebDriver driver) {
-        Assert.assertEquals("Статистика • prestashop-automation", driver.getTitle());
+        Assert.assertEquals("Статистика • prestashop-automation", driver.getTitle(), "Названия не соответствуют");
     }
 
     public static void clickStatsTab(WebDriver driver) {
@@ -102,7 +102,7 @@ public class PageHelper {
     }
 
     public static void verifyCustomerThreadsSubtabIsOpen(WebDriver driver) {
-        Assert.assertEquals("Customer Service • prestashop-automation", driver.getTitle());
+        Assert.assertEquals("Customer Service • prestashop-automation", driver.getTitle(), "Названия не соответствуют");
     }
 
     public static void clickCustomerThreadsSubtab(WebDriver driver) {
@@ -111,7 +111,7 @@ public class PageHelper {
     }
 
     public static void verifyCustomersTabIsOpen(WebDriver driver) {
-        Assert.assertEquals("Управление клиентами • prestashop-automation", driver.getTitle());
+        Assert.assertEquals("Управление клиентами • prestashop-automation", driver.getTitle(), "Названия не соответствуют");
     }
 
     public static void clickCustomersTab(WebDriver driver) {
@@ -125,7 +125,7 @@ public class PageHelper {
     }
 
     public static void verifyCatalogTabIsOpen(WebDriver driver) {
-        Assert.assertEquals("товары • prestashop-automation", driver.getTitle());
+        Assert.assertEquals("товары • prestashop-automation", driver.getTitle(), "Названия не соответствуют");
     }
 
     public static void clickCatalogTab(WebDriver driver) {
@@ -134,7 +134,7 @@ public class PageHelper {
     }
 
     public static void verifyOrdersTabIsOpen(WebDriver driver) {
-        Assert.assertEquals("Заказы • prestashop-automation", driver.getTitle());
+        Assert.assertEquals("Заказы • prestashop-automation", driver.getTitle(), "Названия не соответствуют");
     }
 
     public static void displayTabName(WebDriver driver) {
@@ -146,4 +146,9 @@ public class PageHelper {
         WebElement ordersSubtab = driver.findElement(By.id("subtab-AdminParentOrders"));
         ordersSubtab.click();
     }
+
+    public static void verifyFoundedCategory(String categoryName) {
+        Assert.assertTrue(categoryName.contains("Тестовая Категория"), "Созданная категория не найдена");
+    }
+
 }

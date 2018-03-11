@@ -30,8 +30,9 @@ public class SeleniumTests extends BaseTest {
         PageHelper.createCategory(driver, wait);
         PageHelper.filterCategoryByName(driver, wait);
         WebElement getCategoryName = driver.findElement(By.className("odd"));
-        String CategoryName = getCategoryName.getText();
-        System.out.println(CategoryName);
+        String categoryName = getCategoryName.getText();
+        System.out.println(categoryName);
+        PageHelper.verifyFoundedCategory(categoryName);
         driver.quit();
 
     }
