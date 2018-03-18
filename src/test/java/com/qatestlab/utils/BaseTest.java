@@ -9,6 +9,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
@@ -16,8 +17,7 @@ import java.io.File;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public abstract class BaseTest {
-    @BeforeClass
+public class BaseTest {
     public static WebDriver getDriver() {
         WebDriver driver;
         /*String browser = Properties.getBrowser();
@@ -40,11 +40,9 @@ public abstract class BaseTest {
                         new File(SeleniumTests.class.getResource("/chromedriver.exe").getFile()).getPath());
                 driver = new ChromeDriver();
 
-
         return driver;
     }
 
-    @BeforeClass
     public static EventFiringWebDriver getConfiguredDriver() {
         WebDriver driver = getDriver();
         driver.manage().window().maximize();
@@ -54,7 +52,7 @@ public abstract class BaseTest {
         return wrappeDriver;
     }
 
-    @AfterTest
+    @AfterMethod
     public void tearDown() {
         getDriver().quit();
     }
