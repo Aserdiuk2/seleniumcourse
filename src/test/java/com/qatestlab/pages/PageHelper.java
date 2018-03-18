@@ -25,10 +25,10 @@ public class PageHelper {
         submitFilterButton.click();
     }
 
-    public static void createCategory(WebDriver driver, WebDriverWait wait) {
+    public static void createCategory(WebDriver driver, WebDriverWait wait, String categoryValue) {
         wait.until(visibilityOfElementLocated(By.id("name_1")));
         WebElement createCategoryName = driver.findElement(By.id("name_1"));
-        createCategoryName.sendKeys("Тестовая Категория");
+        createCategoryName.sendKeys(categoryValue);
         WebElement saveCategoryButton = driver.findElement(By.id("category_form_submit_btn"));
         saveCategoryButton.click();
     }
@@ -52,13 +52,17 @@ public class PageHelper {
         actions.moveToElement(orderTabElement).build().perform();
     }
 
-    public static void setEmail(WebDriver driver) {
+    public static void setEmail(WebDriver driver, String emailAddress) {
         WebElement login = driver.findElement(By.id("email"));
-        login.sendKeys("webinar.test@gmail.com");
+        login.sendKeys(emailAddress);
     }
 
     public static void open(WebDriver driver) {
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0");
+    }
+
+    public static void openShop (WebDriver driver) {
+        driver.get("http://prestashop-automation.qatestlab.com.ua/");
     }
 
     public static void clickLogout(WebDriver driver) {
@@ -78,9 +82,9 @@ public class PageHelper {
         submitButton.click();
     }
 
-    public static void setPassword(WebDriver driver) {
+    public static void setPassword(WebDriver driver, String passwordValue) {
         WebElement password = driver.findElement(By.id("passwd"));
-        password.sendKeys("Xcg7299bnSmMuRLp9ITw");
+        password.sendKeys(passwordValue);
     }
 
     public static void verifyDashboardIsOpen(WebDriver driver) {

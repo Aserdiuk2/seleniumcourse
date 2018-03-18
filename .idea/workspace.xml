@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8d0e254b-8e1b-4c5a-9814-27e67745ef1b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/seleniumcourse.iml" afterPath="$PROJECT_DIR$/seleniumcourse.iml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java" afterPath="$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java" afterPath="$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +25,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="49" />
+            <state relative-caret-position="714">
+              <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -30,8 +35,8 @@
       <file leaf-file-name="SeleniumTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="55" />
+            <state relative-caret-position="714">
+              <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -53,9 +58,11 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2146#2147#0" expanded="true" />
+                <element signature="e#2180#2181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,12 +71,14 @@
       <file leaf-file-name="PageHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+            <state relative-caret-position="1113">
+              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#544#545#0" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#2832#2833#0" expanded="true" />
+                <element signature="e#2908#2909#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +87,8 @@
       <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="1617">
+              <caret line="80" column="14" lean-forward="false" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,13 +124,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BasicTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/appmanager/PageHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/target/testng.fxml" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java" />
-        <option value="$PROJECT_DIR$/target/testng.fxml" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java" />
       </list>
     </option>
   </component>
@@ -133,8 +142,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="465" />
-    <option name="y" value="345" />
+    <option name="x" value="-61" />
+    <option name="y" value="57" />
     <option name="width" value="1938" />
     <option name="height" value="1098" />
   </component>
@@ -154,48 +163,44 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="QaTestLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QaTestLab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="QaTestLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QaTestLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="QaTestLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QaTestLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="QaTestLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QaTestLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="QaTestLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QaTestLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qatestlab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="QaTestLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QaTestLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -203,8 +208,8 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="QaTestLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QaTestLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -212,8 +217,8 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seleniumcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="QaTestLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QaTestLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -224,13 +229,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="SearchEverywhereHistoryKey" value="hot keys&#9;null&#9;null" />
   </component>
@@ -255,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SeleniumTests.AddCategoryTest">
+  <component name="RunManager" selected="TestNG.SeleniumTests.shouldDisplayCategory">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -328,7 +331,7 @@
     <configuration name="SeleniumTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.qatestlab.utils.*" />
+          <option name="PATTERN" value="com.qatestlab.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,10 +392,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="SeleniumTests.main" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTests.shouldCreateProduct" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.qatestlab.utils.*" />
+          <option name="PATTERN" value="com.qatestlab.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,7 +405,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.qatestlab.tests" />
       <option name="MAIN_CLASS_NAME" value="com.qatestlab.tests.SeleniumTests" />
-      <option name="METHOD_NAME" value="main" />
+      <option name="METHOD_NAME" value="shouldCreateProduct" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -421,10 +424,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="SeleniumTests.mainTabTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTests.shouldDisplayCategory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.qatestlab.utils.*" />
+          <option name="PATTERN" value="com.qatestlab.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,7 +437,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.qatestlab.tests" />
       <option name="MAIN_CLASS_NAME" value="com.qatestlab.tests.SeleniumTests" />
-      <option name="METHOD_NAME" value="mainTabTests" />
+      <option name="METHOD_NAME" value="shouldDisplayCategory" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -453,10 +456,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="SeleniumTests.succesfullSignIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTests.testIdealFlatmate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.qatestlab.utils.*" />
+          <option name="PATTERN" value="com.qatestlab.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,7 +469,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.qatestlab.tests" />
       <option name="MAIN_CLASS_NAME" value="com.qatestlab.tests.SeleniumTests" />
-      <option name="METHOD_NAME" value="succesfullSignIn" />
+      <option name="METHOD_NAME" value="testIdealFlatmate" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -520,19 +523,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.SeleniumCourseTests" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.SeleniumTests.main" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.SeleniumTests.mainTabTests" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.SeleniumTests.succesfullSignIn" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.SeleniumTests" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.SeleniumTests.AddCategoryTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.SeleniumTests.AddCategoryTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.SeleniumTests.testIdealFlatmate" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.SeleniumTests" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SeleniumTests.shouldCreateProduct" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.SeleniumTests.shouldDisplayCategory" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.SeleniumTests.AddCategoryTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.SeleniumTests.mainTabTests" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.SeleniumTests.main" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.SeleniumTests.succesfullSignIn" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.SeleniumTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SeleniumTests.shouldDisplayCategory" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.SeleniumTests.shouldCreateProduct" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.SeleniumTests.AddCategoryTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.SeleniumTests" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.SeleniumTests.testIdealFlatmate" />
       </list>
     </recent_temporary>
   </component>
@@ -553,35 +556,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTests_AddCategoryTest - 2018.03.11 at 19h 04m 18s.xml">
-      <configuration name="SeleniumTests.AddCategoryTest" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldCreateProduct - 2018.03.18 at 16h 52m 00s.xml">
+      <configuration name="SeleniumTests.shouldCreateProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_AddCategoryTest - 2018.03.11 at 22h 53m 28s.xml">
-      <configuration name="SeleniumTests.AddCategoryTest" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldCreateProduct - 2018.03.18 at 16h 58m 25s.xml">
+      <configuration name="SeleniumTests.shouldCreateProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_AddCategoryTest - 2018.03.11 at 23h 08m 05s.xml">
-      <configuration name="SeleniumTests.AddCategoryTest" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldCreateProduct - 2018.03.18 at 17h 09m 30s.xml">
+      <configuration name="SeleniumTests.shouldCreateProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_main - 2018.03.11 at 16h 21m 24s.xml">
-      <configuration name="SeleniumTests.main" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldCreateProduct - 2018.03.18 at 17h 13m 34s.xml">
+      <configuration name="SeleniumTests.shouldCreateProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_main - 2018.03.11 at 16h 24m 06s.xml">
-      <configuration name="SeleniumTests.main" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldCreateProduct - 2018.03.18 at 17h 16m 01s.xml">
+      <configuration name="SeleniumTests.shouldCreateProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_main - 2018.03.11 at 16h 26m 00s.xml">
-      <configuration name="SeleniumTests.main" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldCreateProduct - 2018.03.18 at 17h 22m 36s.xml">
+      <configuration name="SeleniumTests.shouldCreateProduct" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_main - 2018.03.11 at 17h 51m 48s.xml">
-      <configuration name="SeleniumTests.main" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldDisplayCategory - 2018.03.18 at 17h 49m 26s.xml">
+      <configuration name="SeleniumTests.shouldDisplayCategory" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_mainTabTests - 2018.03.11 at 18h 46m 37s.xml">
-      <configuration name="SeleniumTests.mainTabTests" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldDisplayCategory - 2018.03.18 at 18h 01m 03s.xml">
+      <configuration name="SeleniumTests.shouldDisplayCategory" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_mainTabTests - 2018.03.11 at 18h 46m 46s.xml">
-      <configuration name="SeleniumTests.mainTabTests" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldDisplayCategory - 2018.03.18 at 18h 01m 55s.xml">
+      <configuration name="SeleniumTests.shouldDisplayCategory" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SeleniumTests_mainTabTests - 2018.03.11 at 18h 47m 53s.xml">
-      <configuration name="SeleniumTests.mainTabTests" configurationId="TestNG" />
+    <history-entry file="SeleniumTests_shouldDisplayCategory - 2018.03.18 at 18h 02m 55s.xml">
+      <configuration name="SeleniumTests.shouldDisplayCategory" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -590,18 +593,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38727078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22977346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18421052" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21160042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -612,8 +614,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -626,6 +629,222 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qatestlab.tests.SeleniumTests.xml" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html" />
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qatestlab.tests.SeleniumTests.xml" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html" />
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qatestlab.tests.SeleniumTests.xml" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html" />
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
@@ -640,6 +859,8 @@
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,6 +881,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,6 +923,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -710,6 +935,8 @@
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -771,31 +998,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/testng.fxml" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qatestlab.tests.SeleniumTests.xml" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="49" />
+        <state relative-caret-position="714">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -803,27 +1012,51 @@
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/utils/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="80" column="14" lean-forward="false" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/pages/PageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        <state relative-caret-position="1113">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qatestlab/tests/SeleniumTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="55" />
+        <state relative-caret-position="714">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -6,4 +6,6 @@
             <class name="com.qatestlab.tests.SeleniumTests"/>
         </classes>
     </test>
-</suite>
+        <parameter name="myCategory"  value="Тестовая Категория"/>
+        <test name="AddCategoryTest"/>
+    </suite>

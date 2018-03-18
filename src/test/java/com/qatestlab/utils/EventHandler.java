@@ -75,7 +75,7 @@ public class EventHandler implements WebDriverEventListener {
     }
 
     public void beforeChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
-        System.out.println("Fill input " + webElement.getAttribute("id") + "with value " + charSequences.toString());
+        //System.out.println("Fill input " + webElement.getAttribute("id") + "with value " + charSequences.toString());
     }
 
     public void afterChangeValueOf(WebElement webElement, WebDriver webDriver, CharSequence[] charSequences) {
